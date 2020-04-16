@@ -1,0 +1,15 @@
+.three-js {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+
+    z-index: 0;
+    pointer-events: none;
+
+    canvas {
+        @include absolute(top-left, 12, 12);
+    }
+
+}

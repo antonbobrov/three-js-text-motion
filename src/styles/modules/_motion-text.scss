@@ -1,0 +1,21 @@
+.motion-text {
+    @include display-flex-center;
+    height: 100vh;
+    
+    text-align: center;
+    font-size: 90px;
+    line-height: 90px;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+    white-space: nowrap;
+
+    canvas {
+        @include absolute(top-left, 12, 12);
+        z-index: 1;
+    }
+
+    .v-text {
+        opacity: 0;
+    }
+
+}
