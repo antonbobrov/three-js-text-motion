@@ -55,7 +55,7 @@ export default function motionText() {
     text.play({
         types: ['lineletter', 'line'],
         durationAuto: false,
-        duration: 10000,
+        duration: 3500,
         shift: .95,
         shiftLine: .95,
         letter: [{
